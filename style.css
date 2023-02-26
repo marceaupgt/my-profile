@@ -1,0 +1,114 @@
+body {
+	background: #F1E0C5;
+	font-family: Calibri;
+	padding: 100px;
+	margin: 50px;
+	box-shadow: 0px, 10px, 30px, rgba(0,0,0,1);
+	border-radius: 4px;
+}
+
+h1 {
+	font-family: Calibri;
+	color: rgb(64, 61, 57);
+	letter-spacing: 8px;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: Calibri;
+	color: #342A21;
+	font-size: 70px;	
+}
+
+a {
+	background-color: #F1E0C5;
+	color: #342A21;
+	font-size: 40px;
+	padding: 15px, 20px;
+	border-radius: 4px
+}
+
+a:hover {
+	color: blue;
+}
+
+p {
+	color: rgb(126,88,18);
+	font-size: 40px;
+	font-weight: darker;
+}
+
+div {
+	background: rgb(243 235 235);
+	border: 5px solid black;
+	margin: 50px
+}
+
+/* Class and ID*/
+
+.container{
+	width: 1500px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	margin: 50px 50px;
+	box-shadow: 10px 10px 10px rgb(125,125,125);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i{
+	font-size: 50px;
+	color: rgb(230,230,230);
+	color: #1a839f;
+}
+
+.list-horizontal i:hover {
+	color: #342A21;
+}
+
+.btn-blue {
+	background-color: #F1E0C5;
+	color: #342A21;
+	padding: 15px, 20px;
+	border-radius: 4px
+}
+
+.btn-blue: hover {
+	background-color: blue;
+	color: white;
+}
+
+#introduction p{
+	margin-bottom: 40px
+}
+
+#visage {
+	border-radius: 200px;
+}
+
